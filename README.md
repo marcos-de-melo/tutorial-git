@@ -1,7 +1,7 @@
-# tutorial-git
+# Tutorial-git
 Um tutorial de comandos para mim do git
 
-# estagios
+# Estagios
 1º WORKING DIRECTORY
 
 2º STAGING AREA
