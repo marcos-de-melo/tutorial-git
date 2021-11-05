@@ -1,6 +1,10 @@
 # Tutorial-git
 Um tutorial de comandos para mim do git
 
+git config --global user.name "Your Name"
+git config --global user.email "youremail@yourdomain.com"
+
+
 # Estagios
 1º WORKING DIRECTORY
 
