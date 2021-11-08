@@ -31,15 +31,19 @@ git add .
 
 git commit -m "Mensagem de comentário"
 
-git diff -> Mostra o que fou alterado
+git commit -a -m "Mensagem de comentário" ==> commit sem a necessidade do add.
+
+git diff -> Mostra o que foi alterado
 
 git diff --staged --> mostra o que foi alterado que esta na stage area
 
 git log --> histório de commit
 
-git log 
+git log
 
-git log -p -2 -->
+git log -p --> mostra o relatorio em ordem cronologica e tb o diff de cada um.
+
+git log -p -2 --> mostra a quantidade de commits desejada ex -2 é dois commit somente do total.
 
 git log --pretty=oneline --> mostra somente a chave e a mensagem do commit
 
