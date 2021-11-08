@@ -1,8 +1,17 @@
 # Tutorial-git
 Um tutorial de comandos para mim do git
 
+https://git-scm.com/
+
+https://git-scm.com/doc
+
+https://git-scm.com/download/
+
 git config --global user.name "Your Name"
 git config --global user.email "youremail@yourdomain.com"
+
+# Ignorar arquivos
+.gitignore
 
 
 # Estagios
