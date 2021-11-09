@@ -101,9 +101,9 @@ ssh-keygen // cria uma chave na sua maquina para validar no github
 
 id_rsa.pub // chave
 
-git clone 
+git clone // cria uma cópia identica do repositorio contido no github.
 
-git push origin master
+git push origin master // faz o upload dos arquivos atualizados no computador local para o servidor remoto (github) - sincroniza
 
 
 
