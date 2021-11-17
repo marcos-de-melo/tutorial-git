@@ -95,6 +95,8 @@ git merge teste // adiciona as alteraç~eos
 
 git branch -d teste // deleta o branch teste
 
+git branch -M main // Muda o nome da brach atual para main
+
 # github
 
 ssh-keygen // cria uma chave na sua maquina para validar no github
