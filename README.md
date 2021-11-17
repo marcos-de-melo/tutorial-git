@@ -105,7 +105,8 @@ id_rsa.pub // chave
 
 git clone // cria uma cópia identica do repositorio contido no github.
 
-git push origin master // faz o upload dos arquivos atualizados no computador local para o servidor remoto (github) - sincroniza
+git push origin main // faz o upload dos arquivos atualizados no computador local para o servidor remoto (github) - sincroniza
+git pull origin main // faz o download dos arquivos atualizados no servidor remoto para o computador local -  sincroniza
 
 
 
