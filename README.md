@@ -91,7 +91,7 @@ git checkout -b nome-do-branch-novo // cria o novo branch e já muda para ele
 
 git checkout master // troca para o branch master
 
-git merge teste // adiciona as alteraç~eos
+git merge teste // adiciona as alterações
 
 git branch -d teste // deleta o branch teste
 
