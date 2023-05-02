@@ -15,7 +15,7 @@ https://git-scm.com/download/
 
 3º GIT DIRECTORY
 
-# Configurações Iniciais após instalar
+# Configurações iniciais após instalar
 
 
 git config --global user.name "Your Name"
@@ -23,11 +23,11 @@ git config --global user.name "Your Name"
 git config --global user.email "youremail@yourdomain.com"
 
 # Ignorar arquivos
-.gitignore // arquvi com a lista por linha dos arquivos que não devem ser ignorados pelo git
+.gitignore // É um arquivo com a lista de arquivos adicionados um por linha, que serão ignorados pelo git, arquivos listados aqui não serão monitorados.
 
 
 
-# Comandos
+# Comandos padrões (Principais)
 
 git init  // Inicializa o git na pasta em que o comando foi executado
 
@@ -43,11 +43,11 @@ git diff  // Mostra o que foi alterado
 
 git diff --staged  // mostra o que foi alterado que esta na stage area
 
-git log // histório de commit
+git log // histórico de commit, lista todos os commits feitos.
 
-git log
 
-git log -p // mostra o relatorio em ordem cronologica e tb o diff de cada um.
+
+git log -p // mostra o relatório em ordem cronologica e tb o diff de cada um.
 
 git log -p -2 // mostra a quantidade de commits desejada ex -2 é dois commit somente do total.
 
