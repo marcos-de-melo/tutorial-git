@@ -108,7 +108,16 @@ git clone // cria uma cópia identica do repositorio contido no github.
 git push origin main // faz o upload dos arquivos atualizados no computador local para o servidor remoto (github) - sincroniza
 git pull origin main // faz o download dos arquivos atualizados no servidor remoto para o computador local -  sincroniza
 
+Execute o seguinte comando para verificar a URL remota do repositório:
+git remote -v
 
+Se a URL estiver incorreta, você pode corrigi-la com o seguinte comando:
+git remote set-url origin <nova_url>
+
+
+Verifique o Gerenciador de Credenciais do Windows (para usuários do Windows):
+Vá para o Painel de Controle > Contas de Usuário > Gerenciador de Credenciais.
+Verifique se há credenciais antigas armazenadas para o GitHub e remova-as, se necessário.
 
 
 
