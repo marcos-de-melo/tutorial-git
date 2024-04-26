@@ -120,6 +120,37 @@ Vá para o Painel de Controle > Contas de Usuário > Gerenciador de Credenciais.
 Verifique se há credenciais antigas armazenadas para o GitHub e remova-as, se necessário.
 
 
+Comando git merge
+
+O comando git merge é usado para combinar alterações de um branch (ramo) em outro. Ele permite que você integre as alterações feitas em um branch específico ao branch atual. Aqui estão os detalhes sobre como usar o git merge:
+
+Cenário Típico:
+Suponha que você tenha criado um novo branch chamado “feature/nova-funcionalidade” para trabalhar em uma nova funcionalidade.
+Após concluir as alterações nesse branch, você deseja mesclá-las de volta ao branch principal (geralmente chamado de “master” ou “main”).
+Executando o Merge:
+Primeiro, certifique-se de estar no branch de destino (por exemplo, “master”):
+git checkout master
+
+Em seguida, execute o comando git merge seguido pelo nome do branch que você deseja mesclar:
+git merge feature/nova-funcionalidade
+
+Resolução de Conflitos:
+Se houver conflitos entre as alterações nos dois branches, o Git solicitará que você resolva esses conflitos manualmente.
+Abra os arquivos afetados, edite-os para resolver os conflitos e, em seguida, faça commit das alterações.
+Confirmação do Merge:
+Após resolver os conflitos (se houver), faça um commit para confirmar a mesclagem:
+git commit -m "Merge branch 'feature/nova-funcionalidade' into master"
+
+Histórico de Commits:
+O Git mantém o histórico de commits, incluindo informações sobre a mesclagem.
+Você pode visualizar o histórico usando git log.
+Opções Adicionais:
+Existem outras opções para o git merge, como:
+--no-ff: Realiza um merge com um novo commit mesmo quando não é necessário.
+--squash: Combina todas as alterações em um único commit.
+--abort: Cancela o processo de merge em caso de conflitos.
+
+
 
 
 
