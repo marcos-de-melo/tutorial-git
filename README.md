@@ -152,6 +152,32 @@ Existem outras opções para o git merge, como:
 
 
 
+Para baixar todas as ramificações de um repositório Git além da main, você pode usar os seguintes comandos:
+
+Clone o repositório com todas as branches:
+
+bash
+git clone --mirror <URL_DO_REPOSITORIO>
+Isso vai clonar todas as branches e tags do repositório.
+
+Se já tem o repositório clonado e quer baixar todas as branches:
+
+bash
+git fetch --all
+Isso garante que você tem todas as ramificações remotas.
+
+Criar localmente todas as branches remotas:
+
+bash
+git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
+git fetch --all
+git pull --all
+Esse comando cria e sincroniza todas as branches remotas no seu repositório local.
+
+Agora você terá todas as ramificações disponíveis para trabalhar!
+
+
+
 
 
 
